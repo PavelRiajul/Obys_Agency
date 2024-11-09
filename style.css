@@ -172,9 +172,9 @@ padding: 2.3vw 5.5vw;
     overflow: hidden;
     display: flex;
     align-items: center;
-    position: relative;
     z-index: 999;
 }
+
 .hero:nth-child(2){
     margin-top: 18vh;
 }
@@ -183,7 +183,10 @@ padding: 2.3vw 5.5vw;
     text-transform: uppercase;
     line-height: 7.2vw;
     font-weight: 600;
+    position: relative;
+   
 }
+
 .hero h2{
     font-size: 7.2vw;
     font-weight: 600;
@@ -272,6 +275,15 @@ object-fit: cover;
 #page4-content h1{
     font-size: 7vw;
     text-transform: uppercase;
+}
+#page4-content::before {
+    content: "03";
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -13%;
+    top: 1%;
 }
 #page4-content .underline{
     height: 1px;
