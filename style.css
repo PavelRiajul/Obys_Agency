@@ -385,3 +385,68 @@ position: relative;
     color: transparent;
 }
 /*******page5 end********/
+/********footer start*********/
+#footer{
+    height: 85vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 5vw;
+    padding-left: 28vw;
+    padding-right: 2vw;
+    
+
+}
+#footer h1{
+    font-size: 7.2vw;
+    /* background-color: #3f7df4; */
+    text-transform: uppercase;
+    position: relative;
+}
+#footer-text{
+    position: relative;
+    
+}
+#footer-text::before {
+    content: "04";
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -13%;
+    top: 6%;
+}
+.underline {
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    margin: 3vw 0;
+}
+#footer-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 15vw;
+    padding-top: 4vw;
+    margin-bottom: 6vw;
+
+}
+#footer-div h6{
+    font-size: 0.9vw;
+    margin-bottom: 1.5vw;
+    font-weight: 500;
+}
+.box{
+    /* background-color: #ffa63d; */
+    width:20% ;
+}
+#footer-div h5 {
+    font-size: 1.4vw;
+    font-weight: 500;
+    /* margin: 0.1vh 0; */
+}
+#footer > h5 {
+    font-weight: 500;
+    font-size: 1vw;
+}
+/********footer end*********/
