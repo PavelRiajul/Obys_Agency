@@ -15,3 +15,5 @@
 ------
 7--> cretar cursor
 8-> add Element magnet effect -> npm -> shery js ->1st cdn connect
+--------------
+9-> create page1
