@@ -6,3 +6,6 @@
 2-> Making Loader 
 * create counter -> js file
 3->Loader part complete
+---------
+4->add favicon
+------
